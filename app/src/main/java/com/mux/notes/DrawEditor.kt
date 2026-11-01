@@ -150,7 +150,6 @@ fun DrawEditor(note: Note, update: Updater) {
                     val ev = awaitPointerEvent()
                     val ch = ev.changes.firstOrNull { it.id == down.id } ?: break
                     if (!ch.pressed) { ch.consume(); break }
-                    for (h in ch.historical) addPt(h.position, ch.pressure)
                     addPt(ch.position, ch.pressure)
                     ch.consume()
                 }
