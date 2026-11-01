@@ -1,0 +1,10 @@
+{
+  "name": "Notes",
+  "version": "1.0.0",
+  "description": "A futuristic HUD notes app: text notes, task lists, shopping and other lists, stylus handwriting and sketches, and a monthly expense spreadsheet with formulas. Search, pin, color labels, archive, trash, PIN lock, backup and restore.",
+  "author": "Mohammad Mahfuz Rahman",
+  "ageRating": "3+",
+  "category": "Productivity",
+  "containsAds": false,
+  "type": "app"
+}
